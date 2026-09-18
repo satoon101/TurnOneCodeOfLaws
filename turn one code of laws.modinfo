@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Mod id="ad88d404-4944-414e-80ce-1313b103ab7a" version="1">
+
     <Properties>
         <Name>Turn One Code of Laws</Name>
         <Description>Grants Code of Laws civic on turn 1.</Description>
@@ -9,12 +10,15 @@
     </Properties>
 
     <InGameActions>
+
         <AddGameplayScripts id="TurnOneCodeOfLawsScript">
             <File>scripts/Gameplay/TurnOneCodeOfLaws.lua</File>
         </AddGameplayScripts>
+
     </InGameActions>
 
     <Files>
         <File>scripts/Gameplay/TurnOneCodeOfLaws.lua</File>
     </Files>
+
 </Mod>
